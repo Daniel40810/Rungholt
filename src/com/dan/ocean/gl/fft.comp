@@ -1,0 +1,41 @@
+// fft.comp — inverse FFT einer Zeile (oder Spalte) im geteilten Speicher, Stockham, Radix 2, ohne Normierung.
+// Ein Arbeitsgruppe je Zeile, Kaskade und Bild (A oder B); jedes Texel trägt zwei komplexe Zahlen (vec4).
+layout(local_size_x = HALF) in;
+layout(binding = 0, rgba32f) uniform image2DArray uImgA;
+layout(binding = 1, rgba32f) uniform image2DArray uImgB;
+uniform int uVertical;
+shared vec4 buf[2][N];
+
+vec4 cmul2(vec4 a, vec2 w) {
+    return vec4(a.x * w.x - a.y * w.y, a.x * w.y + a.y * w.x, a.z * w.x - a.w * w.y, a.z * w.y + a.w * w.x);
+}
+
+void main() {
+    int j = int(gl_LocalInvocationID.x);
+    int line = int(gl_WorkGroupID.x), layer = int(gl_WorkGroupID.y);
+    bool second = gl_WorkGroupID.z == 1u;
+    ivec3 p0 = uVertical == 1 ? ivec3(line, j, layer) : ivec3(j, line, layer);
+    ivec3 p1 = uVertical == 1 ? ivec3(line, j + HALF, layer) : ivec3(j + HALF, line, layer);
+    buf[0][j] = second ? imageLoad(uImgB, p0) : imageLoad(uImgA, p0);
+    buf[0][j + HALF] = second ? imageLoad(uImgB, p1) : imageLoad(uImgA, p1);
+    int src = 0;
+    for (int p = 1; p < N; p <<= 1) {
+        barrier();
+        int k = j & (p - 1);
+        vec4 u0 = buf[src][j];
+        float ang = 3.14159265359 * float(k) / float(p);
+        vec4 u1 = cmul2(buf[src][j + HALF], vec2(cos(ang), sin(ang)));
+        int d = (j << 1) - k;
+        buf[1 - src][d] = u0 + u1;
+        buf[1 - src][d + p] = u0 - u1;
+        src = 1 - src;
+    }
+    barrier();
+    if (second) {
+        imageStore(uImgB, p0, buf[src][j]);
+        imageStore(uImgB, p1, buf[src][j + HALF]);
+    } else {
+        imageStore(uImgA, p0, buf[src][j]);
+        imageStore(uImgA, p1, buf[src][j + HALF]);
+    }
+}

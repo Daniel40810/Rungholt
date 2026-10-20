@@ -1,0 +1,18 @@
+# Rungholt · die belegten Sturmfluten an dieser Küste (F32 A), recherchiert am 20.10.2026.
+# Je Zeile: NAME | DATUM_TEXT | JAHR | MONAT | TAG (Scheitel) | KALENDER | SCHEITEL_HUSUM_CM (leer: nicht belegt) | BEZUG | FOLGEN | QUELLE (Kurzzeichen)
+# Messwerte in Husum gibt es erst im 20. Jahrhundert; belegt sind 1976 (5,66 m über NN, Capella) und daraus abgeleitet
+# 1962 (5,21 m) und der 21.1.1976 (4,88 m). Werte nur aus der privaten Chronik stehen im Text, nicht als Scheitel.
+# Vor 1700 zählte Schleswig julianisch (eigene Folgerung der Recherche für 1634).
+Grote Mandränke (Zweite Marcellusflut) | 15.–17.1.1362, Scheitel in der Nacht zum 16. | 1362 | 1 | 16 | JULIANISCH | | | Rungholt und weitere Kirchspiele der Edomsharde gingen unter; rund 100 000 ha Land verloren, die ersten Halligen entstanden. | WPMARC
+Allerheiligenflut 1436 | 1.11.1436 | 1436 | 11 | 1 | JULIANISCH | | | Eiderstedt und Strand überflutet, nach der Quelle ohne dauerhaften Landverlust. | GSHSF
+Dritte Allerheiligenflut | 31.10./1.11.1532 | 1532 | 11 | 1 | JULIANISCH | | | Mehrere tausend Tote in Nordfriesland; Hochwassermarke in der Kirche von Klixbüll. | GSHSF
+Burchardiflut (Zweite Grote Mandränke) | Nacht 11./12.10.1634 (gregorianisch etwa 21./22.10.) | 1634 | 10 | 11 | JULIANISCH | | | Alt-Nordstrand zerriss in Pellworm, Nordstrand, Nordstrandischmoor und Südfall; auf Strand mindestens 6123 Tote, belegt rund 8000. Zeitgenössisch etwa 4 m über MThw am Festland, kein Pegelwert. | WPBURCH
+Weihnachtsflut 1717 | Nacht 24./25.12.1717 | 1717 | 12 | 25 | GREGORIANISCH | | | Etwa 9000 Tote zwischen Tondern und Emden; nur in der Bökingharde hielten die meisten Deiche. | WP1717
+Februarflut 1825 (Halligflut) | 3.–5.2.1825, Scheitel Nacht 3./4.2. | 1825 | 2 | 4 | GREGORIANISCH | | | Auf den Halligen 79 von 339 Häusern zerstört, 233 unbewohnbar; Pellworm ganz überflutet; Südfall mit allen 12 Bewohnern untergegangen. | WP1825
+Februarflut 1962 | Nacht 16./17.2.1962 | 1962 | 2 | 17 | GREGORIANISCH | 521 | NN (hist.) | Festlandsdeiche auf 150 km schwer beschädigt, Brüche im Dockkoog bei Husum und im Uelvesbüller Koog; Halligen verwüstet; an der Westküste keine Toten. Scheitel aus Wikipedia „Zweite Januarflut 1976“ abgeleitet (566 − 78 + 33). | WPJAN76
+Erste Januarflut 1976 (Capella) | 3.1.1976 | 1976 | 1 | 3 | GREGORIANISCH | 566 | NN (hist.) | Bis heute der höchste Stand in Husum (4,11 m über MThw); Schäden am Hindenburgdamm und an den Deichen von Nordstrand und Westerhever; Wasser in den Häusern der Halligen; keine Toten. Die Chronik nennt 5,61 m. | WPCAPELLA
+Zweite Januarflut 1976 | Nacht 20./21.1.1976 | 1976 | 1 | 21 | GREGORIANISCH | 488 | NN (hist.) | Wieder Land unter auf den Halligen, neue große Schäden auf Amrum. Scheitel abgeleitet (78 cm unter dem 3.1.); die Chronik nennt 4,96 m. | WPJAN76
+Nordfrieslandflut 1981 | 24.11.1981 | 1981 | 11 | 24 | GREGORIANISCH | | | Die höchsten je gemessenen Stände im nördlichen Nordfriesland, größere Schäden blieben aus. Husum 5,15 m über NN nur in einer privaten Chronik. | GSHSF
+Orkan Anatol | 3.12.1999 | 1999 | 12 | 3 | GREGORIANISCH | | | Schwere Orkanflut; auf Sylt fiel der Strom aus, auf Föhr Hunderte Bäume umgestürzt, in Dänemark Rømø überflutet. Husum 5,37 m über NN nur in einer privaten Chronik. | WPANATOL
+Sturmtief Tilo | 9.11.2007 | 2007 | 11 | 9 | GREGORIANISCH | | | Sehr schwere Sturmflut ohne größere Schäden in Nordfriesland. Husum 4,12 m über NN nur in einer privaten Chronik. | MWCHRON
+Orkan Xaver | 5./6.12.2013, drei Fluten in Folge | 2013 | 12 | 5 | GREGORIANISCH | | | Deichbruch in Keitum (Sylt), 23 km Dünenschäden auf Sylt, Landverluste auf Sylt, Föhr und Amrum, die meisten Halligen überspült. Husum 4,70 m (5.12.) und 4,12 m (6.12.) über NN nur in einer privaten Chronik. | WPXAVER

@@ -1,0 +1,43 @@
+# Rungholt · Regiebuch (Phase 15). Eine Zeile je Stichwort: Zeit (Minuten:Sekunden echte Zeit), Befehl, Argumente, nach
+# „ | “ der Text fürs HUD und die Untertitel im Kino. Mehrere Befehle zur selben Zeit sind ein Stichwort. Befehle: zeit,
+# raffer, wetter, wetter_frei, sturm, ansicht, fahrt, aera, mandraenke, morgen, glocken, grabung, magnetik, warte, foto,
+# blatt, sage. „warte uhr [TT.MM.] hh:mm“ hält die Uhr des Regiebuchs an, bis die Szene so weit ist.
+# Gestaltet [G]. Die Uhrzeiten der Tide sind die der Szene: Hochwasser am Rand 7:02 und 19:19, Niedrigwasser 13:10.
+Regiebuch: Eine Tide
+Beschreibung: 21. Juli 2026, Hochwasser bis Hochwasser im Zeitraffer 180: vom Deich, über dem Watt, am Priel, bei den Seehunden, an der Hallig, mit dem Boot den Priel hinauf und zurück an den Deich
+Länge: 5:52
+Wetter: 07:00 | 180
+Schritt: 4 | KLAR | Ein Sommermorgen, leichter Westwind | WIND=3 DIRECTION=250 COVER=2 VISIBILITY=40 TEMPERATURE=17 HUMIDITY=70
+Schritt: 5 | KLAR | Mittag, ein paar Quellwolken | WIND=4 DIRECTION=260 COVER=3 VISIBILITY=50 TEMPERATURE=21 HUMIDITY=60
+Schritt: 5 | KLAR | Abend, der Wind schläft ein | WIND=2 DIRECTION=270 COVER=2 VISIBILITY=50 TEMPERATURE=18 HUMIDITY=70
+0:00 zeit 21.07.2026 07:02 | 7 Uhr: Hochwasser am Deich bei Fuhlehörn
+0:00 wetter
+0:00 raffer 180
+0:00 aera heute
+0:00 magnetik aus
+0:00 ansicht Vom Deich
+0:06 foto Vom Deich: Hochwasser am Morgen
+0:15 ansicht Vogelauge | 7:47: das Wasser läuft ab, die ersten Sände kommen hoch
+0:28 foto Vogelauge: die Sände tauchen auf
+0:40 ansicht Am Priel | 9 Uhr: im Priel läuft die Ebbe
+0:52 foto Am Priel: die Kante fällt trocken
+1:00 ansicht Auf dem Watt | 10 Uhr: das Watt liegt frei, die Vögel kommen zum Fressen
+1:14 foto Auf dem Watt: nasser Sand und Rippel
+1:20 ansicht Seehundbank | 11 Uhr: die Seehunde liegen auf der Bank
+1:34 foto Seehundbank: die Kolonie bei Ebbe
+1:45 ansicht Südfall | 12:17: Niedrigwasser an der Hallig Südfall
+1:58 foto Südfall: Niedrigwasser um die Hallig
+2:05 ansicht Vogelauge | 13:17: die Flut kehrt um und kommt zuerst durch die Priele
+2:20 foto Vogelauge: die Flut kommt durch die Priele
+2:30 raffer 20
+2:30 fahrt Prielfahrt | 14:32: mit dem Boot und der Flut den Priel hinauf
+3:10 foto Prielfahrt: mit der Flut den Priel hinauf
+4:50 raffer 180
+4:50 ansicht Auf dem Watt | 15:20: die Flut läuft über das Watt
+5:02 foto Auf dem Watt: die Flut kommt über den Sand
+5:10 ansicht Vom Deich | 16:20: Abendlicht, das Wasser steigt am Deich
+5:30 foto Vom Deich: Abendlicht über dem Watt
+5:50 warte uhr 19:19
+5:50 foto Vom Deich: Hochwasser am Abend | 19:19: Hochwasser, eine Tide ist um
+5:51 blatt Eine Tide
+5:51 raffer 1

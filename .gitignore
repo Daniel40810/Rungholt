@@ -1,0 +1,17 @@
+# Rungholt · nicht ins Git
+/build/
+/dist/
+/nbproject/private/
+# Vorlagen und Rohdaten (Karten, Bilder, Höhenmodelle: mehrere GB, fremde Rechte); was die App braucht, liegt nach dem Import in daten/
+/templates/
+# Zugang zur Datenbank (Vorlage: db/db.properties.example)
+/db/db.properties
+# Was die App ohne Datenbank schreibt (das Gelände in daten/gelaende bleibt)
+/daten/sitzungen/
+/daten/chronik/
+/daten/ansichten/
+/daten/presets/
+/daten/regiebuecher/
+/daten/protokoll.txt
+/daten/fehler.txt
+/daten/cache/

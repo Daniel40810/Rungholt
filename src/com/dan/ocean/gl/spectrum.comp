@@ -1,0 +1,47 @@
+// spectrum.comp — h(k, t) aus den Startamplituden h₀ und daraus die acht Felder als vier komplexe Paare.
+// Nach der inversen FFT stehen in A: (Dx, Dy, Dz, ∂h/∂x) und in B: (∂h/∂z, ∂Dx/∂x, ∂Dz/∂z, ∂Dx/∂z).
+// Die Phase ωq·t wird in doppelter Genauigkeit gerechnet (ωq ist ein Vielfaches von 2π/T, die See läuft in Schleife).
+#extension GL_ARB_gpu_shader_fp64 : enable
+layout(local_size_x = 16, local_size_y = 16) in;
+layout(binding = 0, rgba32f) readonly uniform image2DArray uH0;
+layout(binding = 1, rgba32f) writeonly uniform image2DArray uA;
+layout(binding = 2, rgba32f) writeonly uniform image2DArray uB;
+uniform double uCycles;        // t / T (Zeit in Wiederholzeiten)
+uniform float uLength[4];
+uniform float uChop;
+uniform float uDepth;
+uniform int uN;
+const float G = 9.81;
+const float OMEGA0 = 6.28318530718 / 1000.0;
+
+vec2 cmul(vec2 a, vec2 b) { return vec2(a.x * b.x - a.y * b.y, a.x * b.y + a.y * b.x); }
+
+void main() {
+    ivec3 id = ivec3(gl_GlobalInvocationID.xy, gl_WorkGroupID.z);
+    int c = id.z;
+    int mx = id.x < uN / 2 ? id.x : id.x - uN;
+    int mz = id.y < uN / 2 ? id.y : id.y - uN;
+    vec2 kv = 6.28318530718 * vec2(mx, mz) / uLength[c];
+    float k = length(kv);
+    vec4 A = vec4(0.0), B = vec4(0.0);
+    if (k > 1e-6) {
+        vec4 h0 = imageLoad(uH0, id);
+        float kd = k * uDepth;
+        float w = sqrt(G * k * (kd > 20.0 ? 1.0 : tanh(kd)));
+        double m = double(floor(w / OMEGA0));
+        double cyc = m * uCycles;
+        float ph = 6.28318530718 * float(cyc - floor(cyc));
+        vec2 e = vec2(cos(ph), sin(ph));
+        vec2 h = cmul(h0.xy, e) + cmul(h0.zw, vec2(e.x, -e.y));
+        vec2 ih = vec2(-h.y, h.x);
+        float fx = kv.x / k * uChop, fz = kv.y / k * uChop;
+        vec2 c0 = fx * ih + ih;                       // Dx + i·Dy
+        vec2 c1 = fz * ih - kv.x * h;                 // Dz + i·∂h/∂x
+        vec2 c2 = kv.y * ih - kv.x * fx * ih;         // ∂h/∂z + i·∂Dx/∂x
+        vec2 c3 = -kv.y * fz * h - kv.x * fz * ih;    // ∂Dz/∂z + i·∂Dx/∂z
+        A = vec4(c0, c1);
+        B = vec4(c2, c3);
+    }
+    imageStore(uA, id, A);
+    imageStore(uB, id, B);
+}

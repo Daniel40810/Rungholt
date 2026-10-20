@@ -1,0 +1,27 @@
+// assemble.comp — aus den transformierten Feldern die Texturen für das Zeichnen: Auslenkung (Dx, Dy, Dz, Schaum)
+// und Ableitungen (∂h/∂x, ∂h/∂z, ∂Dx/∂x, ∂Dz/∂z). Schaum entsteht, wo die Jacobi-Determinante unter die Schwelle
+// fällt (die Welle überschlägt sich), und klingt mit uFoamDecay Sekunden nach.
+layout(local_size_x = 16, local_size_y = 16) in;
+layout(binding = 0, rgba32f) readonly uniform image2DArray uA;
+layout(binding = 1, rgba32f) readonly uniform image2DArray uB;
+layout(binding = 2, rgba16f) uniform image2DArray uDisp;
+layout(binding = 3, rgba16f) writeonly uniform image2DArray uDeriv;
+uniform float uDt;
+uniform float uFoamDecay;
+uniform float uFoamThr[4];
+
+float foamFromJacobian(float j, float thr) {
+    float t = clamp((thr + 0.06 - j) / 0.12, 0.0, 1.0);
+    return t * t * (3.0 - 2.0 * t);
+}
+
+void main() {
+    ivec3 id = ivec3(gl_GlobalInvocationID.xy, gl_WorkGroupID.z);
+    vec4 a = imageLoad(uA, id), b = imageLoad(uB, id);
+    float J = (1.0 + b.y) * (1.0 + b.z) - b.w * b.w;
+    float inst = foamFromJacobian(J, uFoamThr[id.z]);
+    float old = imageLoad(uDisp, id).w;
+    float foam = max(old * exp(-uDt / max(uFoamDecay, 0.05)), inst);
+    imageStore(uDisp, id, vec4(a.xyz, clamp(foam, 0.0, 1.0)));
+    imageStore(uDeriv, id, vec4(a.w, b.x, b.y, b.z));
+}

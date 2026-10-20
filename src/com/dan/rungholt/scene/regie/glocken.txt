@@ -1,0 +1,39 @@
+# Rungholt · Regiebuch (Phase 15), Format wie in tide.txt. Nach der Sage läuten die Glocken von Rungholt in
+# Sturmnächten aus dem Watt (Abschnitt 6 des Werkbuchs). Am 30.11.2026 Hochwasser 17:31 mit Weststurm und Windstau,
+# Niedrigwasser am 1.12. um 12:23. Gestaltet [G].
+Regiebuch: Die Glocken
+Beschreibung: 30. November 2026: Weststurm vom Deich bei Fuhlehörn, zum Hochwasser läuten die Glocken aus dem Watt, die Nacht im Zeitraffer, am Mittag bei Ebbe die Grabung, die Magnetik von oben, nach 1362 und zurück
+Länge: 1:36
+0:00 zeit 30.11.2026 16:15 | 30. November, 16:15: Abend im Weststurm, Deich bei Fuhlehörn
+0:00 aera heute
+0:00 magnetik aus
+0:00 sturm an
+0:00 ansicht Fuhlehörn
+0:00 raffer 240
+0:06 foto Fuhlehörn: Weststurm am Abend
+0:10 warte uhr 17:10
+0:10 raffer 1
+0:10 ansicht Kirche im Sturm | 17:10: das Wasser steht über der Kirchwarft, im Tosen läuten die Glocken
+0:10 glocken
+0:22 foto Die Kirche als Schemen über dem Wasser
+0:30 ansicht Fuhlehörn | vom Deich bei Fuhlehörn: mal deutlich, mal vom Wind verschluckt
+0:42 foto Fuhlehörn: die Glocken im Sturm
+0:50 raffer 2400 | die Nacht im Zeitraffer
+0:50 warte uhr 22:30
+0:50 sturm aus
+0:50 warte uhr 01.12. 10:45
+0:50 raffer 30
+0:50 grabung
+0:50 ansicht Grabung | 1. Dezember, Mittag bei Ebbe: die Archäologen an der Kirche
+1:04 foto Grabung: über der Nordwand der Kirche
+1:05 magnetik an
+1:05 ansicht Draufsicht | die Magnetik von oben
+1:13 foto Draufsicht: die Magnetik der Warften
+1:15 magnetik aus
+1:15 ansicht Kirchwarft | Überblendung nach 1362
+1:15 aera 1362
+1:23 foto Auf der Kirchwarft 1362
+1:25 aera heute | zurück nach heute: nur die Abdrücke bleiben
+1:33 foto Auf der Spur der Kirchwarft heute
+1:35 blatt Die Glocken
+1:35 raffer 60

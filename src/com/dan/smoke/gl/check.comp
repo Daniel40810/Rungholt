@@ -1,0 +1,17 @@
+// check.comp — Selbsttest: jeder Aufruf rechnet einen Ball (Fahne gl_WorkGroupID.x, Nummer gl_LocalInvocationID.x)
+// und schreibt Ort, Halbmesser und Deckkraft; der Prozessor vergleicht mit Plume.particle.
+layout(local_size_x = 64) in;
+layout(std430, binding = 1) writeonly buffer SmokeOut { vec4 outPos[]; };
+layout(std430, binding = 2) writeonly buffer SmokeOutA { float outAlpha[]; };
+uniform int uPer;
+
+void main() {
+    int pi = int(gl_WorkGroupID.x), i = int(gl_LocalInvocationID.x);
+    if (i >= uPer) return;
+    vec4 pr;
+    float alpha, age, rnd;
+    smokeParticle(plumes[pi], i, pr, alpha, age, rnd);
+    int o = pi * uPer + i;
+    outPos[o] = pr;
+    outAlpha[o] = alpha;
+}

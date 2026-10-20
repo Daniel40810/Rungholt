@@ -1,0 +1,44 @@
+# Rungholt · Regiebuch (Phase 15), Format wie in tide.txt. Die Nacht läuft wie im Block MANDRÄNKE: der Windstau nach
+# Drehbuch, die Wellen über der Krone, nach einer Stunde Überlauf der Bruch, dann die Flut in der Marsch.
+# Die Uhr der Szene läuft vom Bruch bis drei Minuten nach der offenen Bresche von selbst in Echtzeit; in dieser Zeit
+# wechseln nur die Blicke. Gestaltet [G]. Phase 17: die Uhr zählt gregorianisch, die Nacht vom 15. auf den 16. Januar
+# der Chroniken (julianisch) ist hier die vom 23. auf den 24.; Überlauf gegen 0:40, Bruch gegen 1:40, Hochwasser 4:36.
+Regiebuch: Die Grote Mandränke
+Beschreibung: 23. Januar 1362 (julianisch der 15.), 22 Uhr, bis zum Morgen des 24.: der Orkan zieht auf, die Leute gehen auf die Kirchwarft, die Wellen schlagen über den Deich, der Deich bricht, die Marsch läuft voll, am Morgen steht die Kirche im Meer
+Länge: 5:10
+0:00 mandraenke Kirche | 23. Januar 1362, julianisch der 15., 22 Uhr: Springtide, der Wind dreht auf Westnordwest
+0:00 warte mandraenke
+0:00 ansicht Rungholt 1362
+0:00 raffer 120
+0:08 foto Vom Kirchturm: der Sturm zieht auf
+0:30 ansicht Sielhafen | 23 Uhr: am Sielhafen steigt das Wasser
+0:40 foto Sielhafen: die Kogge zerrt an den Leinen
+0:50 ansicht Kirchwarft | die Leute gehen auf die Kirchwarft, vom Turm läutet es Sturm
+1:00 foto Auf der Kirchwarft: Orkan und Sturmläuten
+1:05 warte ueberlauf
+1:05 raffer 60
+1:05 ansicht Bruchstelle | die Wellen schlagen über die Krone
+1:12 foto Am Deich: Brecher über der Krone
+1:15 warte bruch
+1:15 sage Der Deich bricht
+1:18 foto Am Deich: der Deich bricht
+2:05 warte flut
+2:05 ansicht Rungholt 1362 | die Flut schießt durch die Bresche in die Marsch
+2:20 foto Vom Kirchturm: die Welle läuft in die Marsch
+2:50 ansicht Kirchwarft | auf der Kirchwarft: das Wasser steigt an den Warften
+3:05 foto Auf der Kirchwarft: die Marsch läuft voll
+3:30 ansicht Sielhafen | am Sielhafen läuft die See über den Deich
+4:00 warte uhr 24.01. 02:44
+4:00 raffer 240
+4:00 ansicht Rungholt 1362 | die Häuser auf den niedrigen Warften treiben ab
+4:30 foto Vom Kirchturm: Häuser treiben in der Flut
+4:40 morgen | die Nacht vergeht, das Wasser steht in der Marsch
+4:40 raffer 900
+4:40 warte uhr 24.01. 11:45
+4:40 raffer 30
+4:40 ansicht Kirchwarft | 24. Januar 1362, julianisch der 16., Morgen: die Kirche steht im Meer
+4:50 foto Am Morgen: die Kirche steht im Meer
+5:00 ansicht Sielhafen
+5:08 foto Am Sielhafen: das Meer über der Marsch
+5:09 blatt Die Grote Mandränke
+5:09 raffer 1

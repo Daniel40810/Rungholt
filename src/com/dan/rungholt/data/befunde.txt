@@ -1,0 +1,30 @@
+# Rungholt · Befunde (F25 A, Werkbuch Abschnitt 2). Je Zeile: THEMA | GEGENSTAND | BEFUND (BELEGT, GEMESSEN, GESTALTET) | TEXT | QUELLEN (Kurzzeichen, Komma)
+GELAENDE | Lage | BELEGT | Nordfriesisches Wattenmeer zwischen Pellworm und Nordstrand, östlich der Hallig Südfall; Nationalpark seit 1985, Weltnaturerbe seit 2009. | JGU23
+GELAENDE | Höhen heute | GEMESSEN | Küstenhöhen und Wattflächen der BAW (10 m, NHN), auf 8 m gebracht: 16,4 × 16,4 km um die Kirche. | BAW, EASYGSH
+GELAENDE | Feinform unter 10 m | GESTALTET | Rippel, kleine Rinnen und Wattwurmfelder prozedural aus dem Grund. | APP
+GELAENDE | Gelände 1362 | GESTALTET | Marsch NHN +0,5 bis +1 m, Seedeich mit Krone NHN +3,5 m, Warften, Sielzüge; Verlauf von Deich und Kette nach dem Muster der Messbilder. | APP, JGU23
+TIDE | Rhythmus | BELEGT | Zwei Hochwasser in 24 h 50 min, die Zeiten rücken jeden Tag um rund 50 min; Spring und Nipp im Wechsel von gut 7 Tagen. | NPGEZ
+TIDE | Hub in Husum | BELEGT | Mittleres Hochwasser rund NHN +1,6 m, mittleres Niedrigwasser rund NHN −1,9 m, Tidenhub rund 3,50 m. | SHEIDER
+TIDE | Partialtiden Husum | GEMESSEN | Zehn Partialtiden (M2, S2, N2, K2, K1, O1, M4, MS4, MN4, M6), angepasst an 475 Hoch- und Niedrigwasserzeiten des Gezeitenkalenders 2026. | GZK26
+TIDE | Pellworm und Norderhever | GESTALTET | Husum um 8 bzw. 27 min früher, der Hub 3,3 statt 3,5 m; nicht amtlich, nur mit Vorhersagen verglichen. | TIDEFC
+TIDE | Windstau | GESTALTET | Westwind drückt Wasser in die Bucht: bei Sturm 1–2 m über dem Rechenwert, bei Orkan 3 m und mehr. | APP
+WATT | Boden | BELEGT | Sandwatt auf den Höhen, Mischwatt dazwischen, Schlickwatt in den Buchten und an den Deichen; Rippel, Wattwurmhaufen, Muschelschill, Pfützen. | NPGEZ
+WATT | Überflutung | GESTALTET | Die Flut kommt durch die Priele und schließt die Flächen von den Rinnen her; gerechnet auf 16-m-Zellen mit Laufzeit über das Watt. | APP
+LEBEN | Seehunde | BELEGT | Seehunde liegen bei Ebbe auf den Sandbänken, Heuler im Juni und Juli. | NPGEZ
+LEBEN | Wattvögel | BELEGT | Austernfischer, Alpenstrandläufer in Schwärmen, Säbelschnäbler, Brandgans, Möwen, Ringelgänse im Winter. | NPGEZ
+LEBEN | Wattwanderung | GESTALTET | Von Nordstrand (Fuhlehörn) nach Südfall, rund 6 km bei Ebbe, mit Führer. | APP
+HIMMEL | Wetter | GESTALTET | Wetterlagen der Deutschen Bucht mit Orkan aus Westnordwest; Sonne, Mond und Sterne aus der Uhr der Szene. | APP
+RUNGHOLT | Kirche | BELEGT | Mai 2023: die Hauptkirche, 40 × 15 m, auf einer Warft nahe Südfall. | JGU23, IDW23
+RUNGHOLT | Warften | BELEGT | 54 Warften und eine Warftenkette von 2 km; Lage und Größe der einzelnen Warften gestaltet. | JGU23
+RUNGHOLT | Seedeich und Sielhafen | BELEGT | Ein Seedeich mit Sielhafen; Verlauf gestaltet. | JGU23
+RUNGHOLT | Zwei kleine Kirchen | BELEGT | Die Magnetik 2023 zeigt zwei kleine Kirchen; ihre Lage in der Szene ist gestaltet. | JGU23
+RUNGHOLT | Häuser | GESTALTET | Fachwerk mit Reet wie in Haithabu, auf jeder Warft ein bis vier Häuser. | APP
+RUNGHOLT | Funde | BELEGT | Andreas Busch dokumentierte ab 1921 Warften, Siele, Brunnen und Gräben; Scherben, Krüge, grüne Ofenkacheln, ein Pferdeschädel in den Museen Pellworm und Nordstrand. | VORLAGEN
+MANDRAENKE | Datum | BELEGT | Grote Mandränke, Zweite Marcellusflut, 15. bis 17. Januar 1362 (julianisch); in der Uhr der Szene (gregorianisch) die Nacht vom 23. auf den 24. Januar, dort mit Springtide. | WPMARC
+MANDRAENKE | Ablauf in einer Nacht | GESTALTET | Orkan aus Westnordwest, Windstau auf einer Springtide, Überlauf, Bruch des Seedeichs, Flut durch die Stadt; die Bruchstelle wählbar. | APP
+MANDRAENKE | Sturmfluten danach | BELEGT | Die Sturmfluten an dieser Küste seit 1362 mit Scheitel in Husum, soweit gemessen (RH_STURMFLUT). | WPMARC, WPCAPELLA, WPJAN76
+SPUREN | Magnetik und Bohrungen 2023 | BELEGT | Magnetik, Elektromagnetik, Seismik und Bohrungen auf über 10 km²; die Reste sind stark erodiert, oft nur als Abdruck. | IDW23, JGU23
+SPUREN | Bild der Spuren | GESTALTET | Flache Kleirücken, dunklere Böden, Sodenbrunnen; Magnetik nach dem Muster der Messbilder, nicht die Daten. | APP
+KLANG | Glocken aus dem Watt | BELEGT | In Sturmnächten hört man die Glocken von Rungholt aus dem Watt (Sage). | SHSAGE
+KLANG | Klang der Szene | GESTALTET | Wind, Brandung, Priele, Vögel, Seehunde und 1362 die Stadt, in Echtzeit erzeugt. | APP
+REGIE | Regiebücher | GESTALTET | Eine Tide, Die Grote Mandränke, Die Glocken: Text mit Stichworten, im Kino zu zeigen. | APP

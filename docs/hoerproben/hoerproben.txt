@@ -1,0 +1,28 @@
+1_Ebbe_am_Priel.wav (zum Anhören um +40 dB angehoben)
+  Ebbe am Priel: 21.7.2026, halbe Ebbe, auf frisch trockenem Watt 30 m vor einem Priel mit 0,2 m/s, Bft 3 aus WSW
+  Pegel gesamt -59,2 dBFS (45 dB SPL) · Wind 45 · Watt und Priel 37 · Ereignisse 22 · alles 45
+  Rufe: Vögel 13, Seehunde 6, Vieh 0 · Glocke Kirche 0, Sturmläuten 0, Glocken aus dem Watt 0 · Brecher 0 · Knistern 44 % · See 0 % · gerechnet in 4,7 s
+2_Die_Bank.wav (zum Anhören um +38 dB angehoben)
+  Die Bank: 20.6.2026, Niedrigwasser, 150 m vor der Seehundbank, Bft 2
+  Pegel gesamt -67,3 dBFS (37 dB SPL) · Wind 29 · Watt und Priel 38 · Ereignisse 25 · alles 37
+  Rufe: Vögel 0, Seehunde 8, Vieh 0 · Glocke Kirche 0, Sturmläuten 0, Glocken aus dem Watt 0 · Brecher 0 · Knistern 93 % · See 0 % · gerechnet in 2,5 s
+3_Der_Hafen_1362.wav (zum Anhören um +16 dB angehoben)
+  Der Hafen 1362: an der Kaje des Sielhafens am Mittag, Wasser an den Pfählen, Schiffszimmerer und Säge, Leute beim Laden, um 12 Uhr fern die Glocke der Kirche (3798 m)
+  Pegel gesamt -45,6 dBFS (58 dB SPL) · Wind 48 · See 26 · Pfähle 48 · Stimmen 37 · Ereignisse 58 · alles 58
+  Rufe: Vögel 0, Seehunde 0, Vieh 0 · Glocke Kirche 21, Sturmläuten 0, Glocken aus dem Watt 0 · Brecher 0 · Knistern 0 % · See 100 % · gerechnet in 7,1 s
+5_Glocken_Fuhlehoern_mit_dem_Wind.wav (zum Anhören um +4 dB angehoben)
+  Die Glocken im Sturm von Fuhlehörn (4,9 km östlich der Kirche), mit dem Wind: Wind 23 m/s aus 275°, 30.11.2026 zum Hochwasser
+  Pegel gesamt -26,9 dBFS (77 dB SPL) · Wind 78 · See 44 · Regen 49 · Ereignisse 55 · alles 77
+  Rufe: Vögel 22, Seehunde 0, Vieh 0 · Glocke Kirche 0, Sturmläuten 0, Glocken aus dem Watt 23 · Brecher 0 · Knistern 0 % · See 100 % · gerechnet in 6,8 s
+6_Glocken_Fuhlehoern_gegen_den_Wind.wav (zum Anhören um +4 dB angehoben)
+  Die Glocken im Sturm von Fuhlehörn (4,9 km östlich der Kirche), gegen den Wind (Ostwind, nur für den Vergleich): Wind 23 m/s aus 095°, 30.11.2026 zum Hochwasser
+  Pegel gesamt -23,8 dBFS (80 dB SPL) · Wind 81 · See 46 · Regen 49 · Ereignisse 28 · alles 80
+  Rufe: Vögel 26, Seehunde 0, Vieh 0 · Glocke Kirche 0, Sturmläuten 0, Glocken aus dem Watt 23 · Brecher 0 · Knistern 0 % · See 100 % · gerechnet in 6,8 s
+4a_Mandraenke_Sturmlaeuten_auf_der_Kirchwarft.wav (zum Anhören um +1 dB angehoben)
+  Die Nacht der Mandränke, 15.1.1362: auf der Kirchwarft unter dem Turm, die See läuft über den Deich; Orkan 33 m/s, Sturmläuten, das Vieh
+  Pegel gesamt -21,2 dBFS (83 dB SPL) · Wind 81 · Regen 53 · Feuer 21 · Reet und Schilf 72 · Ereignisse 78 · alles 83
+  Rufe: Vögel 0, Seehunde 0, Vieh 5 · Glocke Kirche 0, Sturmläuten 50, Glocken aus dem Watt 0 · Brecher 11 · Knistern 0 % · See 0 % · UEBERLAUF · gerechnet in 12,2 s
+4b_Mandraenke_der_Bruch.wav (zum Anhören um -0 dB angehoben)
+  Die Nacht der Mandränke: auf dem Seedeich 150 m neben der Bruchstelle an der Kirche; Brecher über die Krone, der Deich bricht (Wind 33 m/s)
+  Pegel gesamt -15,4 dBFS (89 dB SPL) · Wind 79 · See 64 · Brandung 66 · Regen 53 · Reet und Schilf 68 · Ereignisse 92 · alles 92
+  Rufe: Vögel 0, Seehunde 0, Vieh 7 · Glocke Kirche 0, Sturmläuten 74, Glocken aus dem Watt 0 · Brecher 14 · Knistern 0 % · See 98 % · UEBERLAUF → BRUCH · gerechnet in 17,7 s
