@@ -23,6 +23,8 @@ Rungholt ist die Fortsetzung von Lighthouse, Haithabu und Glacier mit denselben 
 
 Die Bilder aus der Szene stammen von einer AMD Radeon 680M auf „Mittel“ (Blätter der Regiebücher, Phase 15).
 
+**Vorschauvideo:** [docs/video/Rungholt_Vorschau.mp4](docs/video/Rungholt_Vorschau.mp4) (30 s, Full HD, mit Klang). Motion Graphics aus diesen Bildern: Flutlinie als Übergang, Pegelanzeige durch eine Tide, der Jahreszähler 2026 → 1362, die Glocken. Neu bauen mit `python3 tools/vorschau/vorschau.py` (Pillow, NumPy, ffmpeg).
+
 ## Die Packages
 
 | Package | Inhalt | Stand |
